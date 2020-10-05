@@ -1,0 +1,13 @@
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\bin\Debug\netcoreapp3.1\ComidasRapidas.exe
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\bin\Debug\netcoreapp3.1\ComidasRapidas.deps.json
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\bin\Debug\netcoreapp3.1\ComidasRapidas.runtimeconfig.json
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\bin\Debug\netcoreapp3.1\ComidasRapidas.runtimeconfig.dev.json
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\bin\Debug\netcoreapp3.1\ComidasRapidas.dll
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\bin\Debug\netcoreapp3.1\ComidasRapidas.pdb
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.csprojAssemblyReference.cache
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.csproj.CoreCompileInputs.cache
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.AssemblyInfoInputs.cache
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.AssemblyInfo.cs
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.dll
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.pdb
+C:\Users\calvo\source\repos\ComidasRapidas\ComidasRapidas\obj\Debug\netcoreapp3.1\ComidasRapidas.genruntimeconfig.cache
