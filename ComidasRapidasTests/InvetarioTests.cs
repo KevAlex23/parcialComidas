@@ -40,7 +40,7 @@ namespace ComidasRapidas.Tests
         //Cuando Va a agregar un producto con cantidad menor o igual a cero  (0)                            //A =>Act = Acción
         //Entonces El sistema presentará el mensaje. "El producto pan de perro con el precio de: $0.00 y la cantidad de: 3"  //A => Assert => Validación
         [TestMethod()]
-        public void AgregarProductosATest()
+        public void AgregarProductosNuevosTest()
         {
             //Preparar
             ProductoSimple producto = new ProductoSimple(id: "2", nombre: "pan de perro", precio: 0, costo: 1000, cantidad: 3);

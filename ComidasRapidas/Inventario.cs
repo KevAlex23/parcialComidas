@@ -23,10 +23,11 @@ namespace ComidasRapidas
                     return "La cantidad de prodcuto no es validad, verifique.";
 
 
-                if (AgregarProductos(product.ID, product.Cantidad) == "No hay productos con ese id")
+                if (AgregarProductos(product.ID, product.Cantidad) == "El producto solicitado no existe")
                 {
                     Bodega.Add(product);
                 }
+                Console.WriteLine(Bodega[Bodega.Count - 1].Nombre);
                 _result = $"El producto " + Bodega[Bodega.Count-1].Nombre + $" con el precio de: ${Bodega[Bodega.Count -1].Precio:n2} y la cantidad de: "+ Bodega[Bodega.Count-1].Cantidad;
             }
             catch (Exception e)
@@ -43,8 +44,10 @@ namespace ComidasRapidas
             try
             {
                 var _position = Bodega.FindIndex(val => val.ID == id);
+                Console.WriteLine(_position);
                 if (_position == -1)
                     return "El producto solicitado no existe";
+                Console.WriteLine(_position.ToString()+"--------------");
                 int cantidadAnterior = Bodega[_position].Cantidad;
                 Bodega[_position].Cantidad += cantidad;
                 _result = "Se actualizo el producto: " + Bodega[_position].Nombre + " cantidad anterior: " + cantidadAnterior+", Cantidad actual: "+ Bodega[_position].Cantidad;
