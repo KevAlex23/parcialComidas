@@ -17,8 +17,8 @@ namespace ComidasRapidas.Tests
         //Ejemplo
         //Dado Un producto cuya cantidad de acceso a inventario es menor o igual a 0                                      //A =>Arrange /Preparación
         // id: "2", nombre: "pan de perro", precio: 0, costo: 1000, cantidad: 0                              
-        //Cuando Va a consignar un valor menor o igual a cero  (0)                            //A =>Act = Acción
-        //Entonces El sistema presentará el mensaje. “El valor a consignar es incorrecto”  //A => Assert => Validación
+        //Cuando Va a agregar un producto con una cantidad menor o igual a cero  (0)                            //A =>Act = Acción
+        //Entonces El sistema presentará el mensaje. "La cantidad de prodcuto no es validad, verifique.o”  //A => Assert => Validación
         [TestMethod()]
         public void AgregarProductoMenorIgualCeroTest()
         {

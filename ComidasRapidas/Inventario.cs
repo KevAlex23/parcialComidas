@@ -56,7 +56,7 @@ namespace ComidasRapidas
             return _result;
         }
 
-        public string QuitarProductos(string id, int cantidad)
+        public string SalidaProductos(string id, int cantidad)
         {
             string _result = "";
 
@@ -79,6 +79,35 @@ namespace ComidasRapidas
             return _result;
         }
 
+        public string SacarProductos(ProductoCompuesto producto,List<ProductoSimple> ingredientes)
+        {
+            
+            if (ValidaCantidad(ingredientes))
+                return "No se puede crear la receta, faltan ingredientes";
+
+            foreach (var item in ingredientes)
+            {
+                Bodega.Find(val => val.ID == item.ID).Cantidad -= item.Cantidad;
+            }
+
+            return "Se creo la nueva receta: "+producto.Nombre;
+        }
+
+        private bool ValidaCantidad(List<ProductoSimple> ingredientes)
+        {
+            bool value = true;
+            foreach (var item in ingredientes)
+            {
+                Console.WriteLine(item.Cantidad.ToString());
+                Console.WriteLine(Bodega.Count.ToString());
+
+                if (Bodega.Find(val => val.ID == item.ID).Cantidad < item.Cantidad)
+                {
+                    return false;
+                }
+            }
+            return value;
+        }
 
     }
 }
